@@ -46,9 +46,9 @@ public class TfliteDetector extends Detector {
     private final Bitmap pendingBitmapFrame;
     private int numClasses;
     private int frameCount = 0;
-    private double confidenceThreshold = 0.25f;
-    private double iouThreshold = 0.45f;
-    private int numItemsThreshold = 30;
+    private double confidenceThreshold = 0.5f;
+    private double iouThreshold = 0.2f;
+    private int numItemsThreshold = 500;
     private Interpreter interpreter;
     private Object[] inputArray;
     private int outputShape2;
