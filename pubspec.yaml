@@ -1,4 +1,4 @@
-name: ultralytics_yolo
+name: ultralytics_flutter
 description: A Flutter plugin for Ultralytics YOLO computer vision models
 version: 0.0.3
 homepage: https://github.com/ultralytics/ultralytics_yolo.git
@@ -21,7 +21,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.ultralytics.ultralytics_yolo
+        package: com.leeclayberg.ultralytics_flutter
         pluginClass: UltralyticsYoloPlugin
       ios:
         pluginClass: UltralyticsYoloPlugin
