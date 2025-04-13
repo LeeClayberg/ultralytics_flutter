@@ -1,4 +1,4 @@
-package com.ultralytics.ultralytics_yolo.predict.detect;
+package com.leeclayberg.ultralytics_flutter.predict.detect;
 
 import android.graphics.RectF;
 

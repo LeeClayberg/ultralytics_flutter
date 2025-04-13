@@ -1,6 +1,6 @@
-import 'package:ultralytics_yolo/predict/detect/detected_object.dart';
-import 'package:ultralytics_yolo/predict/predictor.dart';
-import 'package:ultralytics_yolo/yolo_model.dart';
+import 'package:ultralytics_flutter/predict/detect/detected_object.dart';
+import 'package:ultralytics_flutter/predict/predictor.dart';
+import 'package:ultralytics_flutter/yolo_model.dart';
 
 /// A predictor for object detection.
 class ObjectDetector extends Predictor {

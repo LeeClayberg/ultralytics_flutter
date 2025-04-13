@@ -1,4 +1,4 @@
-package com.ultralytics.ultralytics_yolo.models;
+package com.leeclayberg.ultralytics_flutter.models;
 
 import java.util.ArrayList;
 

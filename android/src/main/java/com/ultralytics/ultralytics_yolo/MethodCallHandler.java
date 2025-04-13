@@ -1,6 +1,6 @@
-package com.ultralytics.ultralytics_yolo;
+package com.leeclayberg.ultralytics_flutter;
 
-import static com.ultralytics.ultralytics_yolo.CameraPreview.CAMERA_PREVIEW_SIZE;
+import static com.leeclayberg.ultralytics_flutter.CameraPreview.CAMERA_PREVIEW_SIZE;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -9,15 +9,15 @@ import android.util.DisplayMetrics;
 
 import androidx.annotation.NonNull;
 
-import com.ultralytics.ultralytics_yolo.models.LocalYoloModel;
-import com.ultralytics.ultralytics_yolo.models.RemoteYoloModel;
-import com.ultralytics.ultralytics_yolo.models.YoloModel;
-import com.ultralytics.ultralytics_yolo.predict.Predictor;
-import com.ultralytics.ultralytics_yolo.predict.classify.ClassificationResult;
-import com.ultralytics.ultralytics_yolo.predict.classify.Classifier;
-import com.ultralytics.ultralytics_yolo.predict.classify.TfliteClassifier;
-import com.ultralytics.ultralytics_yolo.predict.detect.Detector;
-import com.ultralytics.ultralytics_yolo.predict.detect.TfliteDetector;
+import com.leeclayberg.ultralytics_flutter.models.LocalYoloModel;
+import com.leeclayberg.ultralytics_flutter.models.RemoteYoloModel;
+import com.leeclayberg.ultralytics_flutter.models.YoloModel;
+import com.leeclayberg.ultralytics_flutter.predict.Predictor;
+import com.leeclayberg.ultralytics_flutter.predict.classify.ClassificationResult;
+import com.leeclayberg.ultralytics_flutter.predict.classify.Classifier;
+import com.leeclayberg.ultralytics_flutter.predict.classify.TfliteClassifier;
+import com.leeclayberg.ultralytics_flutter.predict.detect.Detector;
+import com.leeclayberg.ultralytics_flutter.predict.detect.TfliteDetector;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -46,15 +46,15 @@ public class MethodCallHandler implements MethodChannel.MethodCallHandler {
 
         this.cameraPreview = cameraPreview;
 
-        EventChannel predictionResultEventChannel = new EventChannel(binaryMessenger, "ultralytics_yolo_prediction_results");
+        EventChannel predictionResultEventChannel = new EventChannel(binaryMessenger, "ultralytics_flutter_prediction_results");
         resultStreamHandler = new ResultStreamHandler();
         predictionResultEventChannel.setStreamHandler(resultStreamHandler);
 
-        EventChannel inferenceTimeEventChannel = new EventChannel(binaryMessenger, "ultralytics_yolo_inference_time");
+        EventChannel inferenceTimeEventChannel = new EventChannel(binaryMessenger, "ultralytics_flutter_inference_time");
         inferenceTimeStreamHandler = new InferenceTimeStreamHandler();
         inferenceTimeEventChannel.setStreamHandler(inferenceTimeStreamHandler);
 
-        EventChannel fpsRateEventChannel = new EventChannel(binaryMessenger, "ultralytics_yolo_fps_rate");
+        EventChannel fpsRateEventChannel = new EventChannel(binaryMessenger, "ultralytics_flutter_fps_rate");
         fpsRateStreamHandler = new FpsRateStreamHandler();
         fpsRateEventChannel.setStreamHandler(fpsRateStreamHandler);
 

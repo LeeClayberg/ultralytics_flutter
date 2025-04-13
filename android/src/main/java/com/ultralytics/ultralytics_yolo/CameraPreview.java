@@ -1,4 +1,4 @@
-package com.ultralytics.ultralytics_yolo;
+package com.leeclayberg.ultralytics_flutter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,7 +16,7 @@ import androidx.core.content.ContextCompat;
 import androidx.lifecycle.LifecycleOwner;
 
 import com.google.common.util.concurrent.ListenableFuture;
-import com.ultralytics.ultralytics_yolo.predict.Predictor;
+import com.leeclayberg.ultralytics_flutter.predict.Predictor;
 
 import java.util.concurrent.ExecutionException;
 

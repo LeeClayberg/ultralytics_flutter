@@ -1,9 +1,9 @@
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
-import 'package:ultralytics_yolo/predict/classify/classification_result.dart';
-import 'package:ultralytics_yolo/predict/detect/detected_object.dart';
-import 'package:ultralytics_yolo/ultralytics_yolo_platform_channel.dart';
+import 'package:ultralytics_flutter/predict/classify/classification_result.dart';
+import 'package:ultralytics_flutter/predict/detect/detected_object.dart';
+import 'package:ultralytics_flutter/ultralytics_flutter_platform_channel.dart';
 
-/// The interface that implementations of ultralytics_yolo must implement.
+/// The interface that implementations of ultralytics_flutter must implement.
 abstract class UltralyticsYoloPlatform extends PlatformInterface {
   /// Constructs a UltralyticsYoloPlatform.
   UltralyticsYoloPlatform() : super(token: _token);

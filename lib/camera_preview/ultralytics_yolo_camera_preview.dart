@@ -3,10 +3,10 @@ import 'dart:math';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:ultralytics_yolo/ultralytics_yolo.dart';
-import 'package:ultralytics_yolo/ultralytics_yolo_platform_interface.dart';
+import 'package:ultralytics_flutter/ultralytics_flutter.dart';
+import 'package:ultralytics_flutter/ultralytics_flutter_platform_interface.dart';
 
-const String _viewType = 'ultralytics_yolo_camera_preview';
+const String _viewType = 'ultralytics_flutter_camera_preview';
 
 /// A widget that displays the camera preview and run inference on the frames
 /// using a Ultralytics YOLO model.

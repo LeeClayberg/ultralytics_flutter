@@ -1,6 +1,6 @@
-import 'package:ultralytics_yolo/predict/classify/classification_result.dart';
-import 'package:ultralytics_yolo/predict/predictor.dart';
-import 'package:ultralytics_yolo/yolo_model.dart';
+import 'package:ultralytics_flutter/predict/classify/classification_result.dart';
+import 'package:ultralytics_flutter/predict/predictor.dart';
+import 'package:ultralytics_flutter/yolo_model.dart';
 
 /// A predictor for image classification.
 class ImageClassifier extends Predictor {

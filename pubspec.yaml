@@ -1,7 +1,7 @@
 name: ultralytics_flutter
 description: A Flutter plugin for Ultralytics YOLO computer vision models
 version: 0.0.3
-homepage: https://github.com/ultralytics/ultralytics_yolo.git
+homepage: https://github.com/ultralytics/ultralytics_flutter.git
 
 environment:
   flutter: ">=3.19.0"

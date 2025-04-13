@@ -1,4 +1,4 @@
-package com.ultralytics.ultralytics_yolo;
+package com.leeclayberg.ultralytics_flutter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -30,7 +30,7 @@ public class UltralyticsYoloPlugin implements FlutterPlugin, ActivityAware {
         MethodCallHandler methodCallHandler = new MethodCallHandler(
                 binaryMessenger,
                 context, cameraPreview);
-        new MethodChannel(binaryMessenger, "ultralytics_yolo")
+        new MethodChannel(binaryMessenger, "ultralytics_flutter")
                 .setMethodCallHandler(methodCallHandler);
     }
 
@@ -45,7 +45,7 @@ public class UltralyticsYoloPlugin implements FlutterPlugin, ActivityAware {
         NativeViewFactory nativeViewFactory = new NativeViewFactory(activity, cameraPreview);
         flutterPluginBinding
                 .getPlatformViewRegistry()
-                .registerViewFactory("ultralytics_yolo_camera_preview", nativeViewFactory);
+                .registerViewFactory("ultralytics_flutter_camera_preview", nativeViewFactory);
     }
 
     @Override

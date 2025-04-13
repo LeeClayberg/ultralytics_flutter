@@ -1,6 +1,6 @@
 //
 //  FLNativeViewFactory.swift
-//  ultralytics_yolo
+//  ultralytics_flutter
 //
 //  Created by Sergio Sánchez on 9/11/23.
 //

@@ -1,29 +1,29 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
-import 'package:ultralytics_yolo/predict/classify/classification_result.dart';
-import 'package:ultralytics_yolo/predict/detect/detected_object.dart';
+import 'package:ultralytics_flutter/predict/classify/classification_result.dart';
+import 'package:ultralytics_flutter/predict/detect/detected_object.dart';
 
-import 'package:ultralytics_yolo/ultralytics_yolo_platform_interface.dart';
+import 'package:ultralytics_flutter/ultralytics_flutter_platform_interface.dart';
 
 /// An implementation of [UltralyticsYoloPlatform] that uses method channels.
 class PlatformChannelUltralyticsYolo implements UltralyticsYoloPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('ultralytics_yolo');
+  final methodChannel = const MethodChannel('ultralytics_flutter');
 
   /// The event channel used to stream the detection results
   @visibleForTesting
   final predictionResultsEventChannel =
-      const EventChannel('ultralytics_yolo_prediction_results');
+      const EventChannel('ultralytics_flutter_prediction_results');
 
   /// The event channel used to stream the inference time
   @visibleForTesting
   final inferenceTimeEventChannel =
-      const EventChannel('ultralytics_yolo_inference_time');
+      const EventChannel('ultralytics_flutter_inference_time');
 
   /// The event channel used to stream the inference time
   @visibleForTesting
-  final fpsRateEventChannel = const EventChannel('ultralytics_yolo_fps_rate');
+  final fpsRateEventChannel = const EventChannel('ultralytics_flutter_fps_rate');
 
   @override
   Future<String?> loadModel(

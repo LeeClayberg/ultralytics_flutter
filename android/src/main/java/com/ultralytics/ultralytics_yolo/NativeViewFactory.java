@@ -1,4 +1,4 @@
-package com.ultralytics.ultralytics_yolo;
+package com.leeclayberg.ultralytics_flutter;
 
 import android.app.Activity;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.ultralytics.ultralytics_yolo.predict;
+package com.leeclayberg.ultralytics_flutter.predict;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -7,7 +7,7 @@ import android.graphics.Bitmap;
 import androidx.annotation.Keep;
 import androidx.camera.core.ImageProxy;
 
-import com.ultralytics.ultralytics_yolo.models.YoloModel;
+import com.leeclayberg.ultralytics_flutter.models.YoloModel;
 
 import org.yaml.snakeyaml.Yaml;
 

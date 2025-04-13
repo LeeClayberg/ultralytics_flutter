@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:ultralytics_yolo/predict/classify/classification_result.dart';
+import 'package:ultralytics_flutter/predict/classify/classification_result.dart';
 
 /// Base class for classification overlays.
 abstract class BaseClassificationOverlay extends StatelessWidget {

@@ -1,4 +1,4 @@
-package com.ultralytics.ultralytics_yolo.predict.classify;
+package com.leeclayberg.ultralytics_flutter.predict.classify;
 
 public class ClassificationResult {
     public final String label;

@@ -1,6 +1,6 @@
-# ultralytics_yolo_example
+# ultralytics_flutter_example
 
-Demonstrates how to use the ultralytics_yolo plugin.
+Demonstrates how to use the ultralytics_flutter plugin.
 
 ## Getting Started
 

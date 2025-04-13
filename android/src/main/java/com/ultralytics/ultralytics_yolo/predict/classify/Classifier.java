@@ -1,10 +1,10 @@
-package com.ultralytics.ultralytics_yolo.predict.classify;
+package com.leeclayberg.ultralytics_flutter.predict.classify;
 
 import android.content.Context;
 
 import androidx.annotation.Keep;
 
-import com.ultralytics.ultralytics_yolo.predict.Predictor;
+import com.leeclayberg.ultralytics_flutter.predict.Predictor;
 
 import java.util.List;
 

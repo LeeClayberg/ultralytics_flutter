@@ -1,5 +1,5 @@
-import 'package:ultralytics_yolo/ultralytics_yolo_platform_interface.dart';
-import 'package:ultralytics_yolo/yolo_model.dart';
+import 'package:ultralytics_flutter/ultralytics_flutter_platform_interface.dart';
+import 'package:ultralytics_flutter/yolo_model.dart';
 
 /// Abstract class for all predictors.
 abstract class Predictor {

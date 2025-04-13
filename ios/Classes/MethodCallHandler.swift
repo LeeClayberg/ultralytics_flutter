@@ -1,6 +1,6 @@
 //
 //  MethodChannelCallHandler.swift
-//  ultralytics_yolo
+//  ultralytics_flutter
 //
 //  Created by Sergio Sánchez on 9/11/23.
 //
@@ -16,14 +16,14 @@ class MethodCallHandler: VideoCaptureDelegate, InferenceTimeListener, ResultsLis
     
     init(binaryMessenger: FlutterBinaryMessenger, videoCapture: VideoCapture) {
         resultStreamHandler = ResultStreamHandler()
-        let resultsEventChannel = FlutterEventChannel(name: "ultralytics_yolo_prediction_results", binaryMessenger: binaryMessenger)
+        let resultsEventChannel = FlutterEventChannel(name: "ultralytics_flutter_prediction_results", binaryMessenger: binaryMessenger)
         resultsEventChannel.setStreamHandler(resultStreamHandler)
          
-        let inferenceTimeEventChannel = FlutterEventChannel(name: "ultralytics_yolo_inference_time", binaryMessenger: binaryMessenger)
+        let inferenceTimeEventChannel = FlutterEventChannel(name: "ultralytics_flutter_inference_time", binaryMessenger: binaryMessenger)
         inferenceTimeStreamHandler = TimeStreamHandler()
         inferenceTimeEventChannel.setStreamHandler(inferenceTimeStreamHandler)
          
-        let fpsRateEventChannel = FlutterEventChannel(name: "ultralytics_yolo_fps_rate", binaryMessenger: binaryMessenger)
+        let fpsRateEventChannel = FlutterEventChannel(name: "ultralytics_flutter_fps_rate", binaryMessenger: binaryMessenger)
         fpsRateStreamHandler = TimeStreamHandler()
         fpsRateEventChannel.setStreamHandler(fpsRateStreamHandler)
         

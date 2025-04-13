@@ -1,10 +1,10 @@
-package com.ultralytics.ultralytics_yolo.predict.detect;
+package com.leeclayberg.ultralytics_flutter.predict.detect;
 
 import android.content.Context;
 
 import androidx.annotation.Keep;
 
-import com.ultralytics.ultralytics_yolo.predict.Predictor;
+import com.leeclayberg.ultralytics_flutter.predict.Predictor;
 
 public abstract class Detector extends Predictor {
     protected Detector(Context context) {

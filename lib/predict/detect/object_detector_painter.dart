@@ -2,7 +2,7 @@ import 'dart:math';
 import 'dart:ui' as ui;
 
 import 'package:flutter/material.dart';
-import 'package:ultralytics_yolo/predict/detect/detected_object.dart';
+import 'package:ultralytics_flutter/predict/detect/detected_object.dart';
 
 /// A painter used to draw the detected objects on the screen.
 

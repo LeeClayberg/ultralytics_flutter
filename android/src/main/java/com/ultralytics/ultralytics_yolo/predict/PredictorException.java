@@ -1,4 +1,4 @@
-package com.ultralytics.ultralytics_yolo.predict;
+package com.leeclayberg.ultralytics_flutter.predict;
 
 public class PredictorException extends Exception{
     public PredictorException(String message) {

@@ -1,6 +1,6 @@
-package com.ultralytics.ultralytics_yolo.predict.detect;
+package com.leeclayberg.ultralytics_flutter.predict.detect;
 
-import static com.ultralytics.ultralytics_yolo.CameraPreview.CAMERA_PREVIEW_SIZE;
+import static com.leeclayberg.ultralytics_flutter.CameraPreview.CAMERA_PREVIEW_SIZE;
 
 import android.content.Context;
 import android.content.res.AssetFileDescriptor;
@@ -13,10 +13,10 @@ import android.os.Looper;
 
 import androidx.camera.core.ImageProxy;
 
-import com.ultralytics.ultralytics_yolo.ImageUtils;
-import com.ultralytics.ultralytics_yolo.models.LocalYoloModel;
-import com.ultralytics.ultralytics_yolo.models.YoloModel;
-import com.ultralytics.ultralytics_yolo.predict.PredictorException;
+import com.leeclayberg.ultralytics_flutter.ImageUtils;
+import com.leeclayberg.ultralytics_flutter.models.LocalYoloModel;
+import com.leeclayberg.ultralytics_flutter.models.YoloModel;
+import com.leeclayberg.ultralytics_flutter.predict.PredictorException;
 
 import org.tensorflow.lite.Interpreter;
 import org.tensorflow.lite.gpu.CompatibilityList;

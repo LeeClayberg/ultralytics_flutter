@@ -1,4 +1,4 @@
-package com.ultralytics.ultralytics_yolo_example;
+package com.leeclayberg.ultralytics_flutter_example;
 
 import io.flutter.embedding.android.FlutterActivity;
 
