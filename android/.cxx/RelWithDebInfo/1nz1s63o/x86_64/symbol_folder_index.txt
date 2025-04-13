@@ -1,1 +1,0 @@
-/Users/leeclayberg/StudioProjects/ammobox/build/ultralytics_yolo/intermediates/cxx/RelWithDebInfo/1nz1s63o/obj/x86_64

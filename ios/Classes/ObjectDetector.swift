@@ -126,19 +126,19 @@ public class ObjectDetector: Predictor {
         }
     }
     
-    private var confidenceThreshold = 0.5
+    private var confidenceThreshold = 0.2
     public func setConfidenceThreshold(confidence: Double) {
         confidenceThreshold = confidence
         detector.featureProvider = ThresholdProvider(iouThreshold: iouThreshold, confidenceThreshold: confidenceThreshold)
     }
     
-    private var iouThreshold = 0.2
+    private var iouThreshold = 0.4
     public func setIouThreshold(iou: Double){
         iouThreshold = iou
         detector.featureProvider = ThresholdProvider(iouThreshold: iouThreshold, confidenceThreshold: confidenceThreshold)
     }
     
-    private var numItemsThreshold = 500
+    private var numItemsThreshold = 30
     public func setNumItemsThreshold(numItems: Int){
         numItemsThreshold = numItems
     }
@@ -247,20 +247,20 @@ public class ObjectDetector: Predictor {
                         var rect = prediction.boundingBox  // normalized xywh, origin lower left
                         print("rect: \(rect)")
                         
-//                         if screenRatio >= 1 { // iPhone ratio = 1.218
-//                             let offset = (1 - screenRatio) * (0.5 - rect.minX)
-//                             let transform = CGAffineTransform(scaleX: 1, y: -1).translatedBy(x: offset, y: -1)
-//                             rect = rect.applying(transform)
-//     //                        rect.size.width *= screenRatio
-//                         } else { // iPad ratio = 0.75
-//                             let offset = (screenRatio - 1) * (0.5 - rect.maxY)
-//                             let transform = CGAffineTransform(scaleX: 1, y: -1).translatedBy(x: 0, y: offset - 1)
-//                             rect = rect.applying(transform)
-//                             rect.size.height /= screenRatio
-//                         }
-//
-//                         rect = VNImageRectForNormalizedRect(rect, Int(screenWidth), Int(newHeight))
-//                         print("rect: \(rect)")
+                        if screenRatio >= 1 { // iPhone ratio = 1.218
+                            let offset = (1 - screenRatio) * (0.5 - rect.minX)
+                            let transform = CGAffineTransform(scaleX: 1, y: -1).translatedBy(x: offset, y: -1)
+                            rect = rect.applying(transform)
+    //                        rect.size.width *= screenRatio
+                        } else { // iPad ratio = 0.75
+                            let offset = (screenRatio - 1) * (0.5 - rect.maxY)
+                            let transform = CGAffineTransform(scaleX: 1, y: -1).translatedBy(x: 0, y: offset - 1)
+                            rect = rect.applying(transform)
+                            rect.size.height /= screenRatio
+                        }
+
+                        rect = VNImageRectForNormalizedRect(rect, Int(screenWidth), Int(newHeight))
+                        print("rect: \(rect)")
                         
                         // The labels array is a list of VNClassificationObservation objects,
                         // with the highest scoring class first in the list.

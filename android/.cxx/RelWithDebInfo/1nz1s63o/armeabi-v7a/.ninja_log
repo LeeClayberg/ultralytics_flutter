@@ -1,7 +1,0 @@
-# ninja log v5
-0	501	1730537783200690066	CMakeFiles/ultralytics.dir/tflite_detect.cpp.o	f60baa9ae087d12a
-501	554	1730537783246194030	/Users/leeclayberg/StudioProjects/ammobox/build/ultralytics_yolo/intermediates/cxx/RelWithDebInfo/1nz1s63o/obj/armeabi-v7a/libultralytics.so	c284bffbf81485bc
-1	122	1730573450748002026	/Users/leeclayberg/StudioProjects/ammobox/build/ultralytics_yolo/intermediates/cxx/RelWithDebInfo/1nz1s63o/obj/armeabi-v7a/libultralytics.so	c284bffbf81485bc
-1	135	1730574510147614927	/Users/leeclayberg/StudioProjects/ammobox/build/ultralytics_yolo/intermediates/cxx/RelWithDebInfo/1nz1s63o/obj/armeabi-v7a/libultralytics.so	c284bffbf81485bc
-1	179	1730574764058414547	/Users/leeclayberg/StudioProjects/ammobox/build/ultralytics_yolo/intermediates/cxx/RelWithDebInfo/1nz1s63o/obj/armeabi-v7a/libultralytics.so	c284bffbf81485bc
-1	108	1741655890854165985	/Users/leeclayberg/StudioProjects/ammobox/build/ultralytics_yolo/intermediates/cxx/RelWithDebInfo/1nz1s63o/obj/armeabi-v7a/libultralytics.so	c284bffbf81485bc
