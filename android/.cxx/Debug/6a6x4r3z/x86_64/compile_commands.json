@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/leeclayberg/.pub-cache/hosted/pub.dev/ultralytics_yolo-0.0.3/android/.cxx/Debug/6a6x4r3z/x86_64",
+  "command": "/Users/leeclayberg/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android26 --sysroot=/Users/leeclayberg/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dultralytics_EXPORTS -isystem /Users/leeclayberg/.pub-cache/hosted/pub.dev/ultralytics_yolo-0.0.3/android/src/main/cpp/opencv-mobile-4.6.0-android/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/ultralytics.dir/tflite_detect.cpp.o -c /Users/leeclayberg/.pub-cache/hosted/pub.dev/ultralytics_yolo-0.0.3/android/src/main/cpp/tflite_detect.cpp",
+  "file": "/Users/leeclayberg/.pub-cache/hosted/pub.dev/ultralytics_yolo-0.0.3/android/src/main/cpp/tflite_detect.cpp"
+}
+]

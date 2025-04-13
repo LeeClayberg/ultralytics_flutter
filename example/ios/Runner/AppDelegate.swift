@@ -1,9 +1,7 @@
-// Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
-
-import Flutter
 import UIKit
+import Flutter
 
-@main
+@UIApplicationMain
 @objc class AppDelegate: FlutterAppDelegate {
   override func application(
     _ application: UIApplication,

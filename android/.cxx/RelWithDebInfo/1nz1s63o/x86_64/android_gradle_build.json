@@ -1,0 +1,43 @@
+{
+  "buildFiles": [
+    "/Users/leeclayberg/.pub-cache/hosted/pub.dev/ultralytics_yolo-0.0.3/android/src/main/cpp/CMakeLists.txt",
+    "/Users/leeclayberg/.pub-cache/hosted/pub.dev/ultralytics_yolo-0.0.3/android/src/main/cpp/opencv-mobile-4.6.0-android/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/Users/leeclayberg/.pub-cache/hosted/pub.dev/ultralytics_yolo-0.0.3/android/src/main/cpp/opencv-mobile-4.6.0-android/sdk/native/jni/OpenCVConfig.cmake",
+    "/Users/leeclayberg/.pub-cache/hosted/pub.dev/ultralytics_yolo-0.0.3/android/src/main/cpp/opencv-mobile-4.6.0-android/sdk/native/jni/abi-x86_64/OpenCVConfig.cmake",
+    "/Users/leeclayberg/.pub-cache/hosted/pub.dev/ultralytics_yolo-0.0.3/android/src/main/cpp/opencv-mobile-4.6.0-android/sdk/native/jni/abi-x86_64/OpenCVModules-release.cmake",
+    "/Users/leeclayberg/.pub-cache/hosted/pub.dev/ultralytics_yolo-0.0.3/android/src/main/cpp/opencv-mobile-4.6.0-android/sdk/native/jni/abi-x86_64/OpenCVModules.cmake"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/leeclayberg/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/leeclayberg/.pub-cache/hosted/pub.dev/ultralytics_yolo-0.0.3/android/.cxx/RelWithDebInfo/1nz1s63o/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/leeclayberg/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/leeclayberg/.pub-cache/hosted/pub.dev/ultralytics_yolo-0.0.3/android/.cxx/RelWithDebInfo/1nz1s63o/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ultralytics::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ultralytics",
+      "output": "/Users/leeclayberg/StudioProjects/ammobox/build/ultralytics_yolo/intermediates/cxx/RelWithDebInfo/1nz1s63o/obj/x86_64/libultralytics.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/leeclayberg/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/leeclayberg/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
