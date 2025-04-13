@@ -1,5 +1,3 @@
-// Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
-
 package com.ultralytics.ultralytics_yolo;
 
 import android.app.Activity;
@@ -96,10 +94,7 @@ public class CameraPreview {
     }
 
     public void setCameraFacing(int facing) {
-        if (cameraProvider != null) {
-            cameraProvider.unbindAll();
-            bindPreview(facing);
-        }
+        bindPreview(facing);
     }
 
     public void setScaleFactor(double factor) {

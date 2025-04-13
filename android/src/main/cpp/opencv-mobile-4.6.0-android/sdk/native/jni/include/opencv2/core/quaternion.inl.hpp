@@ -28,7 +28,7 @@
 #define OPENCV_CORE_QUATERNION_INL_HPP
 
 #ifndef OPENCV_CORE_QUATERNION_HPP
-#error This is not a standalone header. Include quaternion.hpp instead.
+#erorr This is not a standalone header. Include quaternion.hpp instead.
 #endif
 
 //@cond IGNORE
@@ -1057,7 +1057,7 @@ Vec<T, 3> Quat<T>::toEulerAngles(QuatEnum::EulerAnglesType eulerAnglesType){
     return angles;
 }
 
-}  // namespace
+}  // namepsace
 //! @endcond
 
 #endif /*OPENCV_CORE_QUATERNION_INL_HPP*/

@@ -1,3 +1,3 @@
-<!-- Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license -->
-
-<manifest/>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.ultralytics.ultralytics_yolo">
+</manifest>

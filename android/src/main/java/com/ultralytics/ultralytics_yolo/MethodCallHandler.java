@@ -1,5 +1,3 @@
-// Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
-
 package com.ultralytics.ultralytics_yolo;
 
 import static com.ultralytics.ultralytics_yolo.CameraPreview.CAMERA_PREVIEW_SIZE;
@@ -294,10 +292,10 @@ public class MethodCallHandler implements MethodChannel.MethodCallHandler {
                 for (float[] obj : res) {
                     Map<String, Object> objectMap = new HashMap<>();
 
-                    float x = obj[0] * widthDp;
-                    float y = obj[1] * newHeight;
-                    float width = obj[2] * widthDp;
-                    float height = obj[3] * newHeight;
+                    float x = obj[0];
+                    float y = 1 - obj[1] - obj[3];
+                    float width = obj[2];
+                    float height = obj[3];
                     float confidence = obj[4];
                     int index = (int) obj[5];
                     String label = index < predictor.labels.size() ? predictor.labels.get(index) : "";

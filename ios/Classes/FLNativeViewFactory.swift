@@ -1,5 +1,3 @@
-// Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
-
 //
 //  FLNativeViewFactory.swift
 //  ultralytics_yolo
@@ -9,27 +7,24 @@
 
 import Flutter
 
-public class FLNativeViewFactory: NSObject, FlutterPlatformViewFactory {
-  private let videoCapture: VideoCapture
-  private let methodHandler: MethodCallHandler
-
-  public init(videoCapture: VideoCapture, methodHandler: MethodCallHandler) {
-    self.videoCapture = videoCapture
-    self.methodHandler = methodHandler
-    super.init()
-  }
-
-  public func create(
-    withFrame frame: CGRect,
-    viewIdentifier viewId: Int64,
-    arguments args: Any?
-  ) -> FlutterPlatformView {
-    return FLNativeView(
-      frame: frame,
-      viewIdentifier: viewId,
-      arguments: args,
-      videoCapture: videoCapture,
-      methodHandler: methodHandler
-    )
-  }
+class FLNativeViewFactory: NSObject, FlutterPlatformViewFactory {
+    private let videoCapture: VideoCapture
+    
+    init(videoCapture: VideoCapture) {
+        self.videoCapture = videoCapture
+        super.init()
+    }
+    
+    func create(
+        withFrame frame: CGRect,
+        viewIdentifier viewId: Int64,
+        arguments args: Any?
+    ) -> FlutterPlatformView {
+        return FLNativeView(
+            frame: frame,
+            viewIdentifier: viewId,
+            arguments: args,
+            videoCapture: videoCapture
+        )
+    }
 }
