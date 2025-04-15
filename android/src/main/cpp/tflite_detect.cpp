@@ -80,7 +80,7 @@ static void nms_sorted_bboxes(const std::vector<DetectedObject> &objects, std::v
 
 extern "C"
 JNIEXPORT jobjectArray JNICALL
-Java_com_ultralytics_ultralytics_1yolo_predict_detect_TfliteDetector_postprocess(JNIEnv *env,
+Java_com_ultralytics_ultralytics_1flutter_predict_detect_TfliteDetector_postprocess(JNIEnv *env,
                                                                                  jobject thiz,
                                                                                  jobjectArray recognitions,
                                                                                  jint w, jint h,

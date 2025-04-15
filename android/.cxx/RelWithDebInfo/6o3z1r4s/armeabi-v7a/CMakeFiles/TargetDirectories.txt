@@ -1,0 +1,3 @@
+/Users/leeclayberg/Desktop/AmmoBox/ultralytics_flutter/android/.cxx/RelWithDebInfo/6o3z1r4s/armeabi-v7a/CMakeFiles/ultralytics.dir
+/Users/leeclayberg/Desktop/AmmoBox/ultralytics_flutter/android/.cxx/RelWithDebInfo/6o3z1r4s/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/leeclayberg/Desktop/AmmoBox/ultralytics_flutter/android/.cxx/RelWithDebInfo/6o3z1r4s/armeabi-v7a/CMakeFiles/rebuild_cache.dir

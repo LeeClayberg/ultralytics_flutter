@@ -1,0 +1,6 @@
+# ninja log v5
+0	745	1744530732722342638	CMakeFiles/ultralytics.dir/tflite_detect.cpp.o	359253113be316cb
+746	830	1744530732791109468	/Users/leeclayberg/StudioProjects/ammobox/build/ultralytics_flutter/intermediates/cxx/Debug/5u5i6k6a/obj/arm64-v8a/libultralytics.so	2dcfcbec8083fd9d
+16	380	1744568034727589807	/Users/leeclayberg/StudioProjects/ammobox/build/ultralytics_flutter/intermediates/cxx/Debug/5u5i6k6a/obj/arm64-v8a/libultralytics.so	2dcfcbec8083fd9d
+15	525	1744596985926240878	/Users/leeclayberg/StudioProjects/ammobox/build/ultralytics_flutter/intermediates/cxx/Debug/5u5i6k6a/obj/arm64-v8a/libultralytics.so	2dcfcbec8083fd9d
+11	323	1744738683521943601	/Users/leeclayberg/StudioProjects/ammobox/build/ultralytics_flutter/intermediates/cxx/Debug/5u5i6k6a/obj/arm64-v8a/libultralytics.so	2dcfcbec8083fd9d

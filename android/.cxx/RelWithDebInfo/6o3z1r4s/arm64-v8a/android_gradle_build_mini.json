@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "/Users/leeclayberg/Desktop/AmmoBox/ultralytics_flutter/android/src/main/cpp/CMakeLists.txt",
+    "/Users/leeclayberg/Desktop/AmmoBox/ultralytics_flutter/android/src/main/cpp/opencv-mobile-4.6.0-android/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/Users/leeclayberg/Desktop/AmmoBox/ultralytics_flutter/android/src/main/cpp/opencv-mobile-4.6.0-android/sdk/native/jni/OpenCVConfig.cmake",
+    "/Users/leeclayberg/Desktop/AmmoBox/ultralytics_flutter/android/src/main/cpp/opencv-mobile-4.6.0-android/sdk/native/jni/abi-arm64-v8a/OpenCVConfig.cmake",
+    "/Users/leeclayberg/Desktop/AmmoBox/ultralytics_flutter/android/src/main/cpp/opencv-mobile-4.6.0-android/sdk/native/jni/abi-arm64-v8a/OpenCVModules-release.cmake",
+    "/Users/leeclayberg/Desktop/AmmoBox/ultralytics_flutter/android/src/main/cpp/opencv-mobile-4.6.0-android/sdk/native/jni/abi-arm64-v8a/OpenCVModules.cmake"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/leeclayberg/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/leeclayberg/Desktop/AmmoBox/ultralytics_flutter/android/.cxx/RelWithDebInfo/6o3z1r4s/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/leeclayberg/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/leeclayberg/Desktop/AmmoBox/ultralytics_flutter/android/.cxx/RelWithDebInfo/6o3z1r4s/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ultralytics::@6890427a1f51a3e7e1df": {
+      "artifactName": "ultralytics",
+      "abi": "arm64-v8a",
+      "output": "/Users/leeclayberg/StudioProjects/ammobox/build/ultralytics_flutter/intermediates/cxx/RelWithDebInfo/6o3z1r4s/obj/arm64-v8a/libultralytics.so",
+      "runtimeFiles": []
+    }
+  }
+}
