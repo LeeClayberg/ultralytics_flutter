@@ -11,10 +11,9 @@ public class LocalModel: YoloModel{
     }
     
     public func loadModel() async throws -> MLModel? {
-        let url = try! MLModel.compileModel(at: URL(fileURLWithPath: modelPath))
-        let mlModel = try! MLModel(contentsOf: url)
+        let url = try await MLModel.compileModel(at: URL(fileURLWithPath: modelPath))
+        let mlModel = try MLModel(contentsOf: url)
         
-        // TODO Verify task
         return mlModel
     }
 }

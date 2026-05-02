@@ -26,12 +26,12 @@ public class RemoteModel: YoloModel{
             try data.write(to: tempModelUrl)
             
             // Compile the model definition file using the compileModel(at:) method.
-            let compiledModelURL = try! MLModel.compileModel(at: tempModelUrl)
+            let compiledModelURL = try await MLModel.compileModel(at: tempModelUrl)
             
             return try! MLModel(contentsOf: compiledModelURL)
         }
         
-        let compiledModelURL = try! MLModel.compileModel(at: tempModelUrl)
+        let compiledModelURL = try await MLModel.compileModel(at: tempModelUrl)
         return try! MLModel(contentsOf: compiledModelURL)
     }
 }

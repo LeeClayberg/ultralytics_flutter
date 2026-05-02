@@ -1,0 +1,6 @@
+/Users/leeclayberg/Desktop/AmmoBox/ultralytics_flutter/android/src/main/cpp/CMakeLists.txt
+/Users/leeclayberg/Desktop/AmmoBox/ultralytics_flutter/android/src/main/cpp/opencv-mobile-4.6.0-android/sdk/native/jni/OpenCVConfig-version.cmake
+/Users/leeclayberg/Desktop/AmmoBox/ultralytics_flutter/android/src/main/cpp/opencv-mobile-4.6.0-android/sdk/native/jni/OpenCVConfig.cmake
+/Users/leeclayberg/Desktop/AmmoBox/ultralytics_flutter/android/src/main/cpp/opencv-mobile-4.6.0-android/sdk/native/jni/abi-armeabi-v7a/OpenCVConfig.cmake
+/Users/leeclayberg/Desktop/AmmoBox/ultralytics_flutter/android/src/main/cpp/opencv-mobile-4.6.0-android/sdk/native/jni/abi-armeabi-v7a/OpenCVModules-release.cmake
+/Users/leeclayberg/Desktop/AmmoBox/ultralytics_flutter/android/src/main/cpp/opencv-mobile-4.6.0-android/sdk/native/jni/abi-armeabi-v7a/OpenCVModules.cmake
